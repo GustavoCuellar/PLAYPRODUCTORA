@@ -1,0 +1,239 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-size: 62.5%;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+}
+
+.contenedor {
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* HEADER */
+
+header {
+    width: 100%;
+}
+
+nav {
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.2), hsla(2, 65%, 44%, 0.1)), url(./assets/pics/header-pic.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    color: white;
+}
+
+nav .logo {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+}
+
+nav .menu {
+    padding: 0 50px;
+    display: flex;
+    align-items: center;
+    font-size: 1rem;
+}
+
+.menu img {
+    width: 30px;
+
+}
+
+.header-text {
+    width: 100%;
+    height: 450px;
+    background: #b92b27;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #1565C0, #b92b27);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, hsla(212, 80%, 42%, 0.2), hsla(2, 65%, 44%, 0.1)), url(./assets/pics/p4.jpeg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: contain;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-text .header-title {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    padding: 50px;
+
+}
+
+.header-title h1 {
+    font-size: 3rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.header-text .text {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.text p {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.6rem;
+    font-weight: 200;
+    letter-spacing: 2px;
+}
+
+.h-info>p {
+    font-size: 2rem;
+    font-weight: 100;
+    padding: 40px 60px 0;
+}
+
+/* MAIN */
+
+/* TRABAJOS RECIENTES */
+
+.title-works {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title-works h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.gallery {
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* background-color: red; */
+    padding-bottom: 100px;
+}
+
+.columnone,
+.columntwo,
+.columnthree {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    justify-content: space-between;
+}
+
+.cont-img img {
+    width: 100%;
+    display: block;
+}
+
+/* SERVICIO */
+
+.title-service {
+    text-align: center;
+    padding-bottom: 50px;
+}
+
+.title-service h2 {
+    font-size: 1.5rem;
+    font-weight: 200;
+    letter-spacing: 3px;
+}
+
+.container-service {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.service {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.service img {
+    width: 100%;
+}
+
+.service-text {
+    padding: 20px;
+}
+
+.service-text h3 {
+    padding-bottom: 5px;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.service-text p {
+    font-size: 0.85rem;
+    color: rgba(0, 0, 0, 0.557);
+}
+
+/* FOOTER */
+
+.inner-footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 80px;
+    background-color: rgba(128, 128, 128, 0.082);
+    border-top: 1px solid rgba(0, 0, 0, 0.139);
+}
+
+.marca h3 {
+    font-size: 1.4rem;
+    padding: 10px 15px;
+}
+
+.marca p {
+    padding: 10px 15px;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.redes-sociales h3 {
+    font-size: 1.4rem;
+    padding: 10px 15px;
+}
+
+.container-icons figure {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-icons img {
+    padding: 15px;
+}
+
+.container-icons p {
+    font-size: 1rem;
+    font-weight: 300;
+}
