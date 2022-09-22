@@ -131,6 +131,7 @@ nav .menu {
 .container-icons-header p {
     font-size: 1rem;
     font-weight: 300;
+    color: rgba(0, 0, 0, 0.8);
 }
 
 /* MAIN */
@@ -282,6 +283,7 @@ nav .menu {
 .container-icons p {
     font-size: 1rem;
     font-weight: 300;
+    color: rgba(245, 245, 220, 0.6);
 }
 
 @media screen and (max-width: 900px) {
