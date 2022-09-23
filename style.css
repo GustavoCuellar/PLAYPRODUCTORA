@@ -288,6 +288,32 @@ nav .menu {
     color: rgba(245, 245, 220, 0.6);
 }
 
-@media screen and (max-width: 900px) {
-
+@media screen and (max-width: 500px) {
+    .header-text h1 {
+        font-size: 2.5rem;
+    }
+    .text p {
+        font-size: 1.5rem;
+    }
+    .h-info p {
+        font-size: 1.5rem;
+        padding: 0 30px;
+    }
+    .container-icons-header {
+        flex-direction: column;
+    }
+    .g-info {
+        padding: 0 30px;
+    }
+    .g-info p {
+        font-size: 1.5rem;
+    }
+    .container-service {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .service {
+        width: 90%;
+    }
 }
