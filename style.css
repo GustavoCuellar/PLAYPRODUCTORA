@@ -80,7 +80,7 @@ nav .menu {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding-bottom:150px;
+    padding-bottom: 150px;
     margin: auto;
 }
 
@@ -115,9 +115,11 @@ nav .menu {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-wrap: nowrap;
-    padding: 40px 20px;
+    padding: 40px 20px 0;
+}
 
+.container-icons-header a {
+    text-decoration: none;
 }
 
 .container-icons-header figure {
@@ -173,7 +175,7 @@ nav .menu {
     padding-top: 30px;
 }
 
-.cont-correo a{
+.cont-correo a {
     font-size: 1.2rem;
     text-decoration: none;
     color: black;
@@ -255,7 +257,7 @@ nav .menu {
 }
 
 .marca p {
-    padding: 30px 15px 5px;
+    padding: 50px 15px 5px;
     font-size: 1.3rem;
     font-weight: 300;
 }
@@ -264,6 +266,10 @@ nav .menu {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.container-icons a {
+    text-decoration: none;
 }
 
 .redes-sociales h3 {
@@ -287,33 +293,72 @@ nav .menu {
     font-weight: 300;
     color: rgba(245, 245, 220, 0.6);
 }
+.title-end {
+    display: flex;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+.title-end p {
+    color: white;
+    font-weight: 200;
+    font-size: 0.8rem;
+}
 
 @media screen and (max-width: 500px) {
     .header-text h1 {
         font-size: 2.5rem;
     }
+
     .text p {
         font-size: 1.5rem;
     }
+
     .h-info p {
         font-size: 1.5rem;
         padding: 0 30px;
     }
+
     .container-icons-header {
         flex-direction: column;
     }
+
     .g-info {
         padding: 0 30px;
     }
+
     .g-info p {
         font-size: 1.5rem;
     }
+
     .container-service {
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+
     .service {
         width: 90%;
     }
+
+    .inner-footer {
+        flex-direction: column;
+
+    }
+
+    .marca {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-title {
+        text-align: center;
+    }
+
+    .redes-sociales h3 {
+        padding-top: 30px;
+        text-align: center;
+    }
+  
 }
