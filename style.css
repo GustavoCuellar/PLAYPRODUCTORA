@@ -335,6 +335,18 @@ nav .menu {
         font-size: 1.5rem;
     }
 
+    .gallery {
+        flex-direction: column;
+        align-items: center;
+    }
+    .columnone,
+    .columntwo,
+    .columnthree{
+        width: 90%;
+    }
+    .cont-img {
+        padding-bottom: 20px;
+    }
     .container-service {
         flex-direction: column;
         justify-content: center;
